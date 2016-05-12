@@ -11,4 +11,7 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/calculator")
+    public String calculator() { return "calculator"; }
+
 }
