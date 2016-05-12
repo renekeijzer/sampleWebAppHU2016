@@ -5,6 +5,13 @@
 
 <body>
 <h1>${adder}</h1>
+<form>
+    <input type="text" name="firstValue">
+    +
+    <input type="text" name="secondValue">
+    =
+    <input type="text" name="result" value="${value}">
+</form>
 </body>
 
 </html>
