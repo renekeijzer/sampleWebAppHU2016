@@ -14,7 +14,7 @@
         var i1 = $("#input1").val();
         var i2 = $("#input2").val();
 
-        var result = i1 + i2;
+        var result = parseInt(i1) + parseInt(i2);
 
         $("#result").text(result);
     }
@@ -25,7 +25,7 @@
 <p>Simple add of numbers</p>
 
 <input id="input1" type="text"/> + <input id="input2" type="text"> = <span id="result"/>
-
+<br>
 <input type="button" value="calculate" onclick="calculate()"/>
 </body>
 
