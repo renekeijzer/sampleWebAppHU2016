@@ -1,3 +1,4 @@
+
 package com.incentro.hogeschool;
 
 import org.springframework.stereotype.Controller;
@@ -9,7 +10,7 @@ public class IndexController {
     @RequestMapping("/")
     public String index() {
         return "index";
-
+    }
     @RequestMapping("/snake")
     public String snake() {
         return "snake";
@@ -18,4 +19,8 @@ public class IndexController {
     @RequestMapping("/calculator")
     public String calculator() { return "calculator"; }
 
+    @RequestMapping("/Hangman")
+    public String Hangman(){
+      return "Hangman";
+    }
 }
