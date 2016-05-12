@@ -57,6 +57,7 @@ local.properties
 # IntelliJ project files
 .idea
 *.iml
+target
 out
 gen### NetBeans template
 nbproject/private/
