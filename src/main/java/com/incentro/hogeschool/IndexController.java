@@ -10,5 +10,10 @@ public class IndexController {
     public String index() {
         return "index";
     }
+    
+    @RequestMapping("/Hangman")
+    public String Hangman(){
+    	return "Hangman";
+    }
 
 }
