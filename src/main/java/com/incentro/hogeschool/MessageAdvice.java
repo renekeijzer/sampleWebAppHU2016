@@ -12,4 +12,7 @@ public class MessageAdvice {
         return message;
     }
 
+    @ModelAttribute("adder")
+    public String adder(@Value("Adder") String adder) { return adder; }
+
 }
